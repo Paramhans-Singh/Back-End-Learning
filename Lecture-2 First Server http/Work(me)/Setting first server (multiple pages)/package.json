@@ -1,0 +1,12 @@
+{
+  "name": "package-lock",
+  "version": "1.0.0",
+  "description": "my first server",
+  "main": "lecture_02.js",
+  "scripts": {
+    "start": "nodemon lecture_02.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CodingNinjas",
+  "license": "ISC"
+}
