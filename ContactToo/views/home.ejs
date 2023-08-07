@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+<body id="body">
+    
+    <header id="heading">
+        <small>
+            ContactTOO
+        </small>
+    </header>
+
+    <div id="contactlist">
+        <h2 id="main-heading">Contact-List</h2>
+
+    <div id="form">
+        <form action="/create-contact" method="post">
+            <input type="text" name="name" placeholder="Enter name " required>
+            <input type="number" name="phone" placeholder="Enter number" required>
+            <input type="submit" value="Add Contact">
+        </form>
+    </div>
+
+    
+<div>
+     <ul id="list-container">
+        <% for(contact of contact_list){%>
+            <li>
+                <p><%=contact.name%></p>
+                <p><%=contact.phone%></p>
+                <div class"delete-button">
+                    <a href="/delete-contact/?id=<%=contact.id%>">
+                        X
+                    </a>
+                </div>
+                <p>***************************************************************</p>
+            </li>
+            <%}%>
+     </ul>
+    </div>
+    </div>
+</body>
+</html>
