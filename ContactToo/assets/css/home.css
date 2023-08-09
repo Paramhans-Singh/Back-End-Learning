@@ -1,18 +1,14 @@
 #body{
-    /* padding: 3%; */
-    /* margin: 2%; */
-    background-color: lightgrey;
+    background-color: rgb(250, 245, 245);
     margin: 0px;
 }
 
 #heading {
     text-align: right;
-    background-color: green;
-    padding: 1%;
-    padding-right: 2%;
-    border: 14px double lightgreen;
-    border-radius: 5%;
+    background-color: rgb(92, 25, 25);
+    padding: 2%;
 }
+
 #heading small{
     font-size: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -24,6 +20,22 @@
     color: orange;
 }
 
+#main-heading{
+    color: rgb(112, 5, 112);
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+#main-heading small{
+    padding: 2%;
+    font-size: 40px;
+    border-left: 15px rgb(100, 7, 7) dashed;
+    border-right: 15px rgb(87, 12, 12) dashed;
+    border-radius: 30%;
+}
+
+
 #contactlist{
     text-align: center;
     color: whitesmoke;
@@ -34,43 +46,34 @@
     list-style-type:none;
     font-size: medium;
     margin-top: 4%;
-    /* background-color: whitesmoke; */
     padding: 1%;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    border: 12px outset dodgerblue;
     font-weight: bolder;
     font-size: 22px;
     text-transform: uppercase;
     color: blue;
+    /* border-top: 10px double darkblue;
+    border-radius: 30%; */
 }
 
-#list-container:hover{
-    background-color: darkblue;
-    color: whitesmoke;
-}
-
-#main-heading{
-    /* background-color: whitesmoke; */
-    color: brown;
-    border-top-left-radius: 90%;
-    border-bottom-right-radius: 90%;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
-    text-align: center;
+#list-item {
+    border: 8px groove red;
+    width: 30%;
+    margin-left: 33%;
+    align-items: center;
     padding: 2%;
-    border: 12px groove red;
-    margin: 0;
-    font-size: 48px;
-    text-transform: uppercase;
+    /* border-top-left-radius: 45%;
+    border-bottom-right-radius: 35%; */
+   }
+   
+#list-item:hover{
+       color: orange;
 }
+   
+/* #list-container:hover{ */
+    /* background-color: darkblue;
+    color: whitesmoke; */
+/* } */
 
-#main-heading:hover{
-background-color: brown;
-color:whitesmoke;
-}
 
 .delete-button{
     display: flex;
