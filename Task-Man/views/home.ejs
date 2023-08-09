@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=title %>
+    </title>
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://kit.fontawesome.com/8fca2774ad.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <header id="heading">
+        <small>
+            Task-Man
+        </small>
+    </header>
+
+    <div>
+        <h2 id="main-heading">
+            <small>
+                Task Manager
+            </small>
+        </h2>
+        <div id="form">
+            <form action="/create-task" method="post">
+                <textarea name="descp" cols="30" rows="10" placeholder="Enter the Task"></textarea>
+                <input type="date" name="deadline" placeholder="Enter The Deadline" required > 
+                <br>
+                <input type="submit" value="Add Task">
+                <input type="submit" value="Remove Task">
+            </form>
+
+        </div>
+        <ul id="task-container">
+            <% for(task of task_list){ %> 
+               <li>
+                <!-- <p><%=task.name%></p> -->
+                <p id="list-item">
+                <small><%=task.descp%></small><br>
+                 <small><%=task.deadline%></small>
+                 <br>
+                <a href="/delete-task/?id=<%=task.id%>"><i class="fa-solid fa-trash fa-bounce" style="color: #2b6937;"></i></a>
+            </p>
+            </li>
+                <%}%>
+        </ul>
+        
+    </div>
+</body>
+</html>

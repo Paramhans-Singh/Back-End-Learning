@@ -1,0 +1,94 @@
+#body{
+    margin: 0;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#heading{
+    background-color: aquamarine;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+}
+#heading small:hover{
+    color: orange;
+}
+
+#main-heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+
+#main-heading small{
+    border-top: 10px red groove;
+    font-size: 40px;
+    border-right: 10px red groove;
+    padding: 2%;
+    border-radius: 25%;
+}
+
+#form{
+    margin: 5%;
+    margin-left: 35%;
+    align-content: center;
+}
+#form form input{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    background-color: whitesmoke;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10%;
+    margin: 2%;
+}
+#form form textarea{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1%;
+    background-color: whitesmoke;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10%;
+    margin: 2%;
+}
+
+#task-container{
+    list-style-type:none;
+    margin-top: 4%;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    /* border-top: 5px green groove;
+    border-bottom: 5px green groove;
+    border-radius: 10%; */
+}
+#list-item{
+ border: 8px double red;
+ width: 30%;
+ margin-left: 33%;
+ align-items: center;
+ padding: 2%;
+ 
+ 
+ border-radius: 45%;
+}
+
+#list-item:hover{
+    color: orange;
+}
+
+
