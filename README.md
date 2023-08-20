@@ -1,5 +1,5 @@
 <h1> Back-End Learning </h1>
-<img src = "https://www.wingstechsolutions.com/wp-content/uploads/2022/03/full-stack-development.gif" height="300" width="500" align="right">
+<img src = "https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif" height="350" width="500" align="right">
 <h3>All Resources of the Backend</h3> 
 <ul type="circle">
 <li>Express</li>
@@ -24,6 +24,7 @@
 <li>Query & String Params</li>
 <li>Partials & Layouts</li>
 <hr>
+<img src = "https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" height="350" width="500" align="right">
 
 <li>Authentication & Cookies</li>
 <li>Passport Local Strategy</li>
