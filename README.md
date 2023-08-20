@@ -40,5 +40,20 @@
 <li>Flash Messages + Noty JS </li>
 <li>Parallel Jobs - KUE</li>
 <li>Node Mailer - SMTP</li>
-<li>Projects</li>
+<li>Web Sockets + Chat Engine</li>
+<li>Gulp Development</li>
+<li>AWS + SSH + Nginx + Domain Name - Deployment</li>
+<h3>Major Project</h3>
+<ul type="disc">
+  <li>Chat Engine : TalkToo</li>
+  <li>Payment App : SmallPay</li>
+  <li>E-Commerce App : VMart</li>
+  <li>TODO LIST </li>
+</ul>
+
+<h3>Minor Project</h3>
+<ul type="disc">
+  <li>Contact-List : ContactToo</li>
+  <li>Task List : TaskMan</li>
+</ul>
 </ul>
