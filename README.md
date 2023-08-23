@@ -45,7 +45,7 @@
 <li>AWS + SSH + Nginx + Domain Name - Deployment</li>
 <h3>Major Project</h3>
 <ul type="disc">
-  <li>Chat Engine : TalkToo</li>
+  <li>Chat Engine : TalkToo + ChatX</li>
   <li>Payment App : SmallPay</li>
   <li>E-Commerce App : VMart</li>
   <li>TODO LIST </li>
